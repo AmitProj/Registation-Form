@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Chicle&family=Holtwood+One+SC&family=Karla:wght@500&family=Luckiest+Guy&family=Nosifer&family=Notable&family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Inline&family=Chicle&family=Holtwood+One+SC&family=Karla:wght@500&family=Luckiest+Guy&family=Nosifer&family=Notable&family=Ultra&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Contanier{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px;
+    color: white;
+    background: linear-gradient(#e95703,#aab0e4);
+
+}
+
+
+.firstform1{
+    width: 60%;
+    height: 1185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(7-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.firstform1 h1{
+    font-size: 90px;
+    margin-bottom: auto;
+    margin-top: 100px;
+    padding:30px;
+    position: relative;
+    animation: gold 040s linear infinite;
+}
+@keyframes gold {
+    0%,100%{
+        color: black;
+    }
+    25%{
+        color: #e95703;
+    }
+    35%{
+        color: white;
+    }
+    50%{
+        color: rgb(39, 76, 243);
+    }
+    75%{
+        color: rgb(255, 255, 255);
+    }
+   
+    
+}
+.firstform{
+    margin-bottom: auto;
+    width: 80%;
+}
+
+
+.firstform p{
+    padding: 30px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+.try{
+ width: 150px;
+background: transparent;
+margin-left: 50px;
+border: 2px solid rgb(240, 130, 4);
+transition: all 0.4s ease-in-out;
+text-decoration-color: inherit;
+}
+.try:hover{
+    background: #dd6f08;
+    color: white;
+    box-shadow: 0px 0px 10px rgb(231, 154, 29);
+    width: 160px;
+
+}
+
+
+.socialicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.socialicon a{
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 30px;
+    margin: auto;
+    color: rgb(39, 33, 33);
+    position: relative;
+    animation: gold 030s linear infinite;
+    transition: 0.4s ease;
+
+}
+    
+    .icon1:hover{color: rgb(231, 11, 11) !important; text-shadow: 0px 0px 10px rgb(26, 24, 23);}
+.icon2:hover{color: rgb(69, 67, 236) !important;text-shadow: 0px 0px 10px rgb(24, 23, 21);}
+.icon3:hover{color: rgb(9, 148, 240) !important;text-shadow: 0px 0px 10px rgb(39, 37, 34);}
+.icon4:hover{color: coral !important;text-shadow: 0px 0px 10px rgb(80, 66, 45);}
+.icon5:hover{color: rgb(107, 10, 233) !important;text-shadow: 0px 0px 10px rgb(31, 29, 27);}
+
+
+.sociallink {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: monospace !important;
+    font-size: 16px;
+}
+.sociallink a{
+  padding: 0 3px;
+  text-decoration: none;
+  color: #686360;
+  transition: all 0.4s ease-in-out;
+}
+.sociallink a:hover{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.secondform{
+    width: 40%;
+    height: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    /* background: #aab0e4; */
+    background: #e95703;
+
+    /* line-height: 40px; */
+
+}
+.formtitle{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+
+}
+
+
+.checkform{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px 0;
+    justify-content: center;
+  }
+  #check{ width: 20px; }
+  span{ margin-left: 25px auto;}
+
+input{
+   width: 300px;
+    height: 70px;
+    font-size: 20px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 2px solid rgb(41, 39, 39);
+    color: white !important;
+    padding-top: 15px;
+    background: transparent;
+    margin-left: 5px;
+    
+
+}
+#radius{
+    width: 22px;
+    margin-left: 20px;
+
+}
+
+.inputD{
+display: flex;
+align-items:center;
+
+}
+.mf{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+select{
+    width: 200px;
+    height: 50px;
+    margin: 50px 0;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid rgb(54, 52, 52);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
+    border-bottom: 2px solid rgb(41, 39, 39);
+    color: rgb(255, 255, 255);
+    transition: all 0.4s ease-in;
+}
+
+option{
+    background: orangered;
+}
+
+.formlines p{
+    margin: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.formlines h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 20px;
+    color: rgb(39, 33, 33);
+
+}
+input::placeholder{
+    color: white;
+}
+button{
+    width: 250px;
+    height: 50px;
+    margin: 50px 0 ;
+    margin: auto;
+    border-radius: 100px;
+    border: 2px solid rgb(129, 125, 91);
+    color:#f88f2c;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease-out;
+}
+button:hover{
+    background: darkslategray;
+}
+.inputD input:first-child{
+    margin-left: 0 !important;
+}
+@media (max-width:1200px) {
+  
+    .secondform{
+        width: 500px;
+    }
+   
+    
+    input{
+        width: 400px;
+    }
+    .checkform{
+        width: 400px;
+    }
+
+}
+@media (max-width:390px) {
+    .Contanier{
+        flex-direction: column;
+        width: 390px;
+
+    }
+    .firstform1{
+        width: 100%;
+        height: auto;
+        padding: 30px 0;
+    }
+    .secondform{
+        width: 100%;
+        padding: 10px;
+    }
+    .formtitle{
+        font-size: 28px;
+    }
+    input{
+        width: 100%;
+    }
+    select{
+        margin: 0 0 50px 0;
+    }
+    #check {
+        width: 20px;
+        margin-right: 6px;
+        height: 26px;
+    }
+    .formlines {
+        padding: 0 20px;
+        text-align: center;
+    }
+    .backbtn{
+        display: none;
+    }
+    .firstform p {
+        padding: 30px 0;
+        margin-top: 0px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .firstform1 h1{
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 72px;
+         text-transform: uppercase;
+    }
+    .try{
+        margin-left: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    
+    .sociallink{
+        align-items:center;
+    }
+}
+
+
+.backbtn{
+    width: 40px;
+    height: 100px;
+    font-size: 20px;
+    position: absolute;
+    position: fixed;
+    bottom: 100px;
+    left: 10px;
+    z-index: 100000;
+    border-radius: 100px;
+    border: 2px solid orangered;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 500;
+}
+.backbtn a{
+    text-decoration: none;
+    color: black;
+}
+.backbtn:hover{
+    background: orangered;
+}
